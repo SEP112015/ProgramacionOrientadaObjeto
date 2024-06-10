@@ -1,5 +1,5 @@
 ###HERENCIAS SIMPLE Y JERARQUICA"
-"""class Persona:
+class Persona:
     def __init__(self, nombre, edad, nacionalidad):
         self.nombre = nombre
         self.edad = edad
@@ -29,5 +29,4 @@ class Vacante(Persona):
         self.carrera = carrera
 
 roberto = Empleado("Carlos Andres", 34, "dominicano", "Programador", 200000)
-roberto.hablar()"""
-
+roberto.hablar()
