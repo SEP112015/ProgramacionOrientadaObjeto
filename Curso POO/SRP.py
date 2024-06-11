@@ -1,3 +1,9 @@
+ #Principio de Responsabilidad Única (Single Responsibility Principle - SRP):
+ #Este principio establece que una clase debe tener una única responsabilidad 
+ #y motivo para cambiar. Cada clase debe tener una sola razón para cambiar, lo 
+ #que ayuda a mantener el código más cohesivo y fácil de mantener. 
+
+
 class TanqueDeCombustible:
     def __init__(self):
         self.combustible = 100
@@ -24,7 +30,7 @@ class Auto:
             self.tanque.usar_combustible(distancia/2)
             print("Recuerda que la gasolina no es gratis vete al paso")
         else:
-            print("No hay sufuciente combustible")    
+            print("jeje, nos quedamos a pie")    
     
     def obtener_posicion(self):
         return self.posicion
